@@ -1,0 +1,23 @@
+{
+  "name": "clone-of-etherpad-lite",
+  "description": "",
+  "author": "",
+  "dependencies"   : {
+                      "require-kernel"      : "1.0.3",
+                      "socket.io"           : "0.8.7",
+                      "ueberDB"             : "0.1.7",
+                      "async"               : "0.1.15",
+                      "express"             : "2.5.0",
+                      "clean-css"           : "0.3.2",
+                      "uglify-js"           : "1.2.5",
+                      "formidable"          : "1.0.7",
+                      "log4js"              : "0.4.1",
+                      "jsdom-nocontextifiy" : "0.2.10",
+                      "async-stacktrace"    : "0.0.2"
+                     },
+
+  "engines"        : { "node" : ">=0.6.0",
+                       "npm"  : ">=1.0"
+                     }, 
+  "version"        : "1.0.0"
+}

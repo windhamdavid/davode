@@ -1,0 +1,25 @@
+{
+  "ip": "OPENSHIFT_INTERNAL_IP",
+  "port" : "OPENSHIFT_INTERNAL_PORT",
+
+  "dbType" : "mongodb",
+  "dbSettings" : {
+                   "user"    : "OPENSHIFT_NOSQL_DB_USERNAME",
+                   "host"    : "OPENSHIFT_NOSQL_DB_HOST", 
+                   "port"    : "OPENSHIFT_NOSQL_DB_PORT",
+                   "password": "OPENSHIFT_NOSQL_DB_PASSWORD",
+                   "dbname": "OPENSHIFT_APP_NAME"
+                 },
+  
+  "defaultPadText" : "Welcome to Etherpad Lite!\n\nhttps://github.com/openshift/etherpad-example/",
+  
+  "requireSession" : false,
+
+  "editOnly" : false,
+  
+  "minify" : true,
+  
+  "abiword" : null,
+
+  "loglevel": "INFO"
+}
